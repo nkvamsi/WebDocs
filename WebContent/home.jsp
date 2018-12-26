@@ -94,7 +94,7 @@ try {
         <div class="card">
           <img class="card-img-top p-3" src="get_image()" alt="image_icon">
           <div class="card-body">
-            <a href ="#"><h5 class="card-title"><%=rs.getString("name") %></h5></a>
+            <a href ="ViewDocument.jsp?id=<%=rs.getString("id")%>"><h5 class="card-title"><%=rs.getString("name") %></h5></a>
             <p class="card-text"><%=rs.getString("tag") %></p>
             <button type="button" class="btn btn-light"><i class="fa fa-download" aria-hidden="true"></i></button>
             <button type="button" class="btn btn-light"><i class="fa fa-share-alt" aria-hidden="true"></i></button>

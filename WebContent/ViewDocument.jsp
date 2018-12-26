@@ -47,7 +47,7 @@
 			while (rs.next()) {
 	%>
 	<%
-		html = rs.getString("data");
+		html = rs.getString("code");
 	%>
 	<textarea><%=html%></textarea>
 	<%
